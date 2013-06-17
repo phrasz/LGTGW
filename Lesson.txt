@@ -1,0 +1,12 @@
+Command Prompt 101:
+===================
+0. Start Cmd <Press Windows Button + R; Type: CMD; Press Enter>
+1. Type: CD C:\
+2. Make folders as needed by typing: mkdir _______
+
+Example:
+0. Find a Folder to work out of <C:\My Programming\LPTHW\>
+1. Start a repo <change to the directory and type: git init >
+2. Code files like normal <I made this file Lesson.txt>
+3. Add the files to the Repo <git add ______ ; ADD ALL by typing: git add *>
+4. Push a snap shot <git commit -m "W00t! Hello World">
