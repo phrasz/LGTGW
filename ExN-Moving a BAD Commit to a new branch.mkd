@@ -1,8 +1,10 @@
 Normal Git Operations
 =====================
+```bash
 git init
 git add *
 git commit -m"Messages"
+```
 
 WHEN you F' it up
 =================
