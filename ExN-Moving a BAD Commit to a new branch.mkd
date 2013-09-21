@@ -1,0 +1,14 @@
+Normal Git Operations
+=====================
+git init
+git add *
+git commit -m"Messages"
+
+WHEN you F' it up
+=================
+1. COMMIT the "Bad Files"
+2. Move the master branch to the "floating branch": `git branch -m Bad01_Messed_Up_Commit`
+3. Checkout the new master to the desired Commit: `git checkout -b master HEAD~1`
+4. Continue as normal
+
+

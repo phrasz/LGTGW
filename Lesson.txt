@@ -1,10 +1,11 @@
-Command Prompt 101:
-===================
+I. Command Prompt 101:
+======================
 0. Start Cmd <Press Windows Button + R; Type: CMD; Press Enter>
 1. Type: CD C:\
 2. Make folders as needed by typing: mkdir _______
 
-Example:
+II. First Time Using Git Example:
+================================
 0. Find a Folder to work out of <C:\My Programming\LPTHW\>
 1. Start a repo <change to the directory and type: git init >
 2. Code files like normal <I made this file Lesson.txt>

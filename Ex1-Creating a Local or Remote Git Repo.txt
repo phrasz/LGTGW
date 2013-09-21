@@ -1,0 +1,57 @@
+Creating a Local or Remote Git Repo
+===================================
+TL;DR: Git is a P2P VCS, but you can have both local and remote repo's
+
+Let's look at the example of how to start a project from scratch on a local machine AND how to clone an existing repo online
+[Part I: Local Git Repos]
+-------------------------
+	###I. Git Init (Initlialize a Repo the FIRST TIME EVAR for a project...)
+		0. Find a Folder to work out of
+			[CL/Term] mkdir C:\My Programming\LGTGW\ <||> mkdir ~/LGTGW/
+			
+		1. Start a repo!
+			[CL/Term] git init
+			
+		2. Code the following Hello World for C
+			[Text Editor START]
+				#include <stdio.h>
+
+				int main(){
+					printf("\nHello World!");
+					return 0;
+				}
+			[Text Editor END] 
+			==> SAVE AS: Hello.c
+			
+		3. Add the files to the Repo 
+			[CL/Term] git add Hello.c
+				OR
+			[CL/Term] git add * <||> git add .
+			
+		4. Let's save the file to the new Repo as a commit
+			[CL/Term] git commit -m "W00t! Hello World"
+			
+		5. Look at the Commit on Command Line/ Terminal
+			[CL/Term] git status
+			
+		6. Look at the Commit with Gitk
+			[CL/Term] gitk
+
+	Synopsis: You make a new repo, add the C file, and then commited it for the record. Git status and Gitk will show you this history.
+	
+Copying repos on git 1:1 is known as cloning. You don't have to init a repo IF you clone a remote repository!	
+
+[Part II: Remote Git Repos]
+---------------------------
+	###I. git clone <repo>
+	0. Find some code you want to clone (Github.com for starters)
+	
+	1. Open up termimal; change to a generic working folder
+		[CL/Term] cd c:\ <||> cd ~/
+	
+	2. Clone that Repo!
+		[CL/Term] git clone https://github.com/phrasz/LGTGW
+		
+	3. Code like normal; and repeate actions like #2 above --^
+	
+	4. Repeat steps 4-6 from above 

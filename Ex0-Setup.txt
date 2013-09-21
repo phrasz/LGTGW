@@ -1,0 +1,25 @@
+[Windows:]
+==========
+	I. Download Git
+	---------------
+	0. https://code.google.com/p/msysgit/downloads/list <I pick the Latest>
+	1. Start the installer
+	2. Click through everything; When it asks I like to choose the Git Command Line WITH Tools; Also I checkout Windows, Commit Unix style
+
+	II. Command Prompt 101
+	----------------------
+	0. Start Cmd <Press Windows Button + R; Type: CMD; Press Enter>
+	1. Type: CD C:\
+	2. Make folders as needed by typing: mkdir _______
+
+
+[Linux:]
+========
+	I. Download Git
+	---------------
+	0. sudo apt-get install git gitk OR yum install git gitk
+
+	II. Terminal 101
+	----------------
+	0. Start Terminal <Ctrl+Alt+T>
+	1. Make folders as needed by typing: mkdir _______
