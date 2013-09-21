@@ -13,4 +13,10 @@ WHEN you F' it up
 3. Checkout the new master to the desired Commit: `git checkout -b master HEAD~1`
 4. Continue as normal
 
+Why To Save "Bad" Code
+=======================
+There are numerous reasons to save bad code.
+I personally have found it great for historical references of "what not to do".
+However, I have also found "diamonds in the rough" with some of the code/functionality that is recycled.
 
+The biggest reason is it takes nearly NO SPACE to commit and save the data, and there's more to gained by saving the code than there is in removing the code.
